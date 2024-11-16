@@ -1,0 +1,12 @@
+p {  
+    background-color: green;  
+    margin: 0;  
+    padding: 0;  
+}
+
+.contentBox {  
+    margin-left: 100px;  
+    margin-right: 100px; 
+    color: red;
+}
+

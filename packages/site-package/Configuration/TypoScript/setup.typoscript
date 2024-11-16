@@ -1,0 +1,15 @@
+
+# Enable debug <--- this is a comment
+config.contentObjectExceptionHandler = 0
+
+page = PAGE  
+page {  
+    typeNum = 0  
+    // PAGEVIEW 
+    10 = PAGEVIEW  
+    10 {  
+        paths {  
+            0 = EXT:site_package/Resources/Private/Templates/
+        }         
+    } 
+}

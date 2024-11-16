@@ -1,0 +1,22 @@
+mod.web_layout.BackendLayouts {  
+    Default {  
+        title = Default Layout with one colPos  
+        config {  
+            backend_layout {  
+                colCount = 1  
+                rowCount = 1  
+                rows {  
+                    1 {  
+                        columns {  
+                            1 {  
+                                name = Main Content (colPos = 0)  
+                                colPos = 0  
+                                identifier = main  
+                            }  
+                        }  
+                    }  
+                }  
+            }  
+        }  
+    }  
+}
